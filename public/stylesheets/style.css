@@ -90,14 +90,15 @@ h3.about-header {
   margin-left: auto;
   margin-right: auto;
 }
-.photography-img-dbl {
-  width: 100%;
+.photography-title {
+  font-weight: 100;
+}
+.photography-description {
+  font-weight: 300;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.photography-title {
-  font-weight: 100;
 }
 .centered-content {
   width: 90%;
