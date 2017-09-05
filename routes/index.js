@@ -36,6 +36,16 @@ slides.push({
   ]
 });
 
+var photos = [
+  '/images/Patisserie/gateau.jpg',
+  '/images/Patisserie/macaron.jpg',
+  '/images/Patisserie/bachelorette.jpg',
+  '/images/Patisserie/choux.jpg',
+  '/images/Patisserie/souffle.jpg',
+  '/images/Patisserie/tea_party1.jpg',
+  '/images/Patisserie/tea_party2.jpg'
+];
+
 router.get('/', function(req, res, next) {
   res.render('home');
 });
@@ -53,7 +63,7 @@ router.get('/photography', function(req, res, next) {
 });
 
 router.get('/patisserie', function(req, res, next) {
-  res.render('patisserie', {patisserie: true});
+  res.render('patisserie', {patisserie: true, photos: photos});
 });
 
 module.exports = router;
