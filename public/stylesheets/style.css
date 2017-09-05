@@ -62,3 +62,47 @@ h3.about-header {
 .mb-0 {
   color: #777;
 }
+
+.image-slider {
+  padding-top: 20px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sliderimg {
+  height: auto;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.slick-prev:before, .slick-next:before {
+  color: gray;
+}
+.project-description {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.photography-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photography-img-dbl {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photography-title {
+  font-weight: 100;
+}
+.centered-content {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}

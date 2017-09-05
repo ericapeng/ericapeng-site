@@ -1,0 +1,29 @@
+<!--<div class="centered-slider">-->
+  <div class="image-slider">
+    {{#each slides}}
+      <div>
+        <img src='{{imagesrc}}' class="sliderimg" />
+        <h1 class="text-center">{{title}}</h1>
+        <p class="project-description">{{description}}</p>
+        <div class="text-center">
+          {{#links}}
+            <a href="{{link}}" class="btn btn-info" role="button">{{text}}</a>
+          {{/links}}
+        </div>
+      </div>
+    {{/each}}
+    <div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E_Cu2AzA244?rel=0" allowfullscreen></iframe>
+      </div>
+      <h1 class="text-center">Political Bias Analysis</h1>
+      <p class="project-description">A project utilizing machine learning to classify the bias of new articles from various new stations
+        and to determine the least biased stations to recommend. This project was completed with my partner, Elvin
+        Kong, as our final project submission for the Spring 2017 Machine Learning course at NYU Shanghai.
+      </p>
+      <div class="text-center">
+        <a href="https://github.com/ericapeng/political-bias-analysis" class="btn btn-info" role="button">More Info on GitHub</a>
+      </div>
+    </div>
+  </div>
+<!--</div>-->
