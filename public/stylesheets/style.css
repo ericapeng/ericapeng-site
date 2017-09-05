@@ -69,6 +69,7 @@ h3.about-header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  padding-bottom: 20px;
 }
 .projectsliderimg {
   height: auto;
@@ -99,9 +100,16 @@ h3.about-header {
 .photography-title {
   font-weight: 100;
 }
-.photography-description {
+.photo-description {
   font-weight: 300;
   width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-description {
+  font-weight: 300;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
